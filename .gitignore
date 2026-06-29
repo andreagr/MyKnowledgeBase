@@ -45,8 +45,11 @@ app/android/.gradle/
 
 # Packaging artifacts (generated)
 packaging/backend-runtime/
+packaging/backend-runtime-stale-*/
 packaging/release/
 packaging/installer/*.exe
+packaging/cache/
+*.zip
 
 # Local helper outputs
 *.log
