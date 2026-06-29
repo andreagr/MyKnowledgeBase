@@ -1,0 +1,52 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+secrets
+*.pem
+*.key
+
+# Runtime/project data
+data/
+uploads/
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# Flutter / Dart
+app/.dart_tool/
+app/.packages
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/build/
+app/windows/flutter/ephemeral/
+app/linux/flutter/ephemeral/
+app/macos/Flutter/ephemeral/
+app/ios/Flutter/ephemeral/
+app/android/.gradle/
+
+# Packaging artifacts (generated)
+packaging/backend-runtime/
+packaging/release/
+packaging/installer/*.exe
+
+# Local helper outputs
+*.log

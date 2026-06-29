@@ -1,0 +1,11 @@
+# Slimmer dependency set for the packaged Windows build (no PyTorch).
+fastapi
+uvicorn
+python-multipart
+openai
+anthropic
+qdrant-client
+PyMuPDF
+python-dotenv
+fastembed
+psutil

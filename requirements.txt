@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+openai
+anthropic
+qdrant-client
+PyMuPDF
+python-dotenv
+fastembed
+psutil
