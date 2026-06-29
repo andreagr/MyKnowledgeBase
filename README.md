@@ -2,6 +2,34 @@
 
 Local-first knowledge base for company documents: upload PDFs, index content with embeddings, and chat over your data from a desktop app.
 
+## Screenshots
+
+### Chat with document preview
+
+Ask questions over your indexed PDFs and open cited files with inline preview.
+
+![Chat with document preview and related files](docs/images/chat.png)
+
+### Sources — PDF management
+
+Upload PDFs, browse indexed documents, and manage your knowledge base from the Sources screen.
+
+![Sources page with PDF upload and document list](docs/images/sources.png)
+
+### Intelligence — Cloud API
+
+Connect a cloud LLM provider with your own API key. Keys are stored locally on the device.
+
+![Intelligence API settings — API key required](docs/images/intelligence_api.png)
+
+![Intelligence API settings — ready with DeepSeek](docs/images/intelligence_api_correct.png)
+
+### Intelligence — Local model (coming soon)
+
+The app scans your PC for RAM, disk, and CPU to recommend an on-device model. Full download and local chat integration is still in progress.
+
+![Intelligence local model compatibility scan](docs/images/intelligence_local.png)
+
 ## What this project includes
 
 - Flutter desktop frontend (`app/`) for document management and chat UX.
